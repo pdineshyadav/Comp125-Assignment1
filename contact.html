@@ -58,32 +58,31 @@
             <p id="contactMeParagraph">
                 
                 <form id="contactForm"  role="form">
-                    <legend>Contact Form</legend>
                     <div class="groupForm">
                         <label for="firstName">First Name</label>
-                        <input type="text" class="form-control" id="firstName" placeholder="Enter First Name" width="500px">
+                        <input type="text" class="form-control" id="firstName" placeholder="Enter Your First Name"  tabindex="1">
                     </div>
                     <div class="groupForm">
                         <label for="lastName">Last Name</label>
-                        <input type="text" class="form-control" id="lastName" placeholder="Enter Last Name" required>
+                        <input type="text" class="form-control" id="lastName" placeholder="Enter Your Last Name"  tabindex="3">
+                    </div>
+                    <div class="groupForm">
+                        <label for="phoneNumber">Phone Number</label>
+                        <input type="tel" class="form-control" id="phoneNumber" placeholder="Enter Your Phone Number" tabindex="5">
                     </div>
                     <div class="groupForm">
                         <label for="email">Email</label>
-                        <input type="email" class="form-control" id="email" placeholder="Enter Email" required>
-                    </div>
+                        <input type="email" class="form-control" id="email" placeholder="Enter Your Email Address"  tabindex="7">
+                    </div>                    
                     <div class="groupForm">
-                        <label for="contactNumber">Contact Number</label>
-                        <input type="tel" class="form-control" id="contactNumber" placeholder="Enter Contact Number" required>
-                    </div>
-                    <div class="groupForm">
-                        <label for="message">Your Message</label>
-                        <textarea cols="3" rows="3" class="form-control" id="message" placeholder="Enter Your Message here..." required></textarea>
+                        <label for="message">Detailed Description</label>
+                        <textarea cols="3" rows="3" class="form-control" id="message" placeholder="Enter Your Detailed Description here..."  tabindex="9"></textarea>
                     </div>
                     </br>
                     <div class="groupForm">
-                        <a id="cancelButton" href="index.html" class="btn btn-warning">Cancel</a>
                         <a id="sendButton" href="index.html" class="btn btn-primary">Submit</a>
-                    </div>
+                        <a id="cancelButton" href="index.html" class="btn btn-warning">Cancel</a>
+                    </div> 
                 </form>
                 
             </p>
